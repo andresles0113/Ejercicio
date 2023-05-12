@@ -1,0 +1,46 @@
+.contact{
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    font-size: 18px;
+    border-radius: 14px;
+    padding: 25px;
+
+    display: grid;
+    gap: 25px;
+}
+
+.contact p,
+.contact h2{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-details {
+  display: grid; 
+  gap: 20px;     
+}
+
+.contact-details-group {
+    display: grid; 
+    gap: 3px;     
+}
+
+.contact_label {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;  
+}
+
+.contact-text {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;  
+}
